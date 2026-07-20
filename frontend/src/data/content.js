@@ -195,7 +195,7 @@ export const INFRA = [
     ],
     body: "Odour-free, water-based latex printing for interior retail graphics that go up the same day they come off the roll.",
     image:
-      "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwxfHxsYXJnZSUyMGZvcm1hdCUyMHByaW50aW5nJTIwbWFjaGluZSUyMGluZHVzdHJ5fGVufDB8fHx8MTc4NDU3NDI4M3ww&ixlib=rb-4.1.0&q=85",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/aztfkjkl_Latex.webp",
   },
   {
     tag: "SOLVENT",
