@@ -1,11 +1,11 @@
 export const CONTACT = {
-  phone: "+91-XXXXXXXXXX",
-  phoneHref: "tel:+91XXXXXXXXXX",
-  whatsapp: "+91-XXXXXXXXXX",
-  whatsappHref: "https://wa.me/91XXXXXXXXXX",
+  phone: "+91-9477360683",
+  phoneHref: "tel:+919477360683",
+  whatsapp: "+91-9477360683",
+  whatsappHref: "https://wa.me/919477360683",
   email: "info@artcreation.in",
   address: "Kolkata, West Bengal, India",
-  placeholder: true,
+  placeholder: false,
 };
 
 export const NAV = [
