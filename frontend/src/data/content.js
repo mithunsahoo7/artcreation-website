@@ -234,7 +234,7 @@ export const INFRA = [
     ],
     body: "Sharp, on-demand digital printing for short-run collateral, in-store POS pieces and rapid brand mock-ups — same-day turnaround.",
     image:
-      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/f11n5tpk_Digital.png",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/g3zlux1h_Digital.png",
   },
 ];
 
