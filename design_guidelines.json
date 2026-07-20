@@ -1,0 +1,214 @@
+{
+  "theme": "light",
+  "archetype": "Swiss Brutalist Corporate",
+  "typography": {
+    "headings": {
+      "family": "Cabinet Grotesk, sans-serif",
+      "weights": ["font-bold", "font-black"],
+      "tracking": "tracking-tighter",
+      "sizes": {
+        "h1": "text-5xl sm:text-6xl md:text-7xl lg:text-8xl",
+        "h2": "text-4xl sm:text-5xl lg:text-6xl",
+        "h3": "text-2xl sm:text-3xl lg:text-4xl"
+      },
+      "rules": [
+        "Headings must use tight letter spacing (tracking-tighter).",
+        "Avoid pure centering for headings unless specific for symmetric hero layouts. Prefer left-aligned typographic blocks."
+      ]
+    },
+    "body": {
+      "family": "Inter, sans-serif",
+      "weights": ["font-normal", "font-medium"],
+      "sizes": {
+        "large": "text-lg sm:text-xl",
+        "base": "text-base",
+        "small": "text-sm uppercase tracking-[0.2em]"
+      },
+      "rules": [
+        "Line height must be relaxed for body text (leading-relaxed).",
+        "Overlines should be uppercase with wide tracking."
+      ]
+    }
+  },
+  "colors": {
+    "background": "#FFFFFF",
+    "foreground": "#111111",
+    "sections": {
+      "light_grey": "#F5F5F5",
+      "dark_grey": "#E5E5E5"
+    },
+    "accent": {
+      "primary": "#E53935",
+      "hover": "#D32F2F"
+    },
+    "text": {
+      "primary": "#111111",
+      "secondary": "#555555",
+      "accent": "#E53935"
+    },
+    "rules": [
+      "Use #FFFFFF for main background.",
+      "Use #F5F5F5 for alternating sections to create subtle depth.",
+      "Red accent (#E53935) should be used sparingly for high-impact buttons, active states, and typographic highlights.",
+      "Ensure text on red background is pure white."
+    ]
+  },
+  "visual_enhancers": {
+    "borders": "1px solid border-black/10 for structural grids and cards. Use border-collapse for bento grid layouts.",
+    "textures": "Subtle noise overlay on the hero section background to break digital flatness.",
+    "shadows": "Minimal shadows. Rely on solid borders and background color shifts for depth. If needed, use sharp, offset solid shadows (neo-brutalist) instead of soft blurs.",
+    "radius": "rounded-none or minimal rounded-sm (2px) to maintain an industrial/corporate vendor aesthetic.",
+    "overlays": "Hero images must have a calculated overlay to ensure text contrast. Use bg-black/40."
+  },
+  "component_name": {
+    "buttons": "Sharp-edged (rounded-none), high-contrast. Primary: bg-[#E53935] text-white hover:bg-[#D32F2F] transition-colors. Secondary: border border-[#111111] text-[#111111] hover:bg-[#111111] hover:text-white.",
+    "cards": "Flat design with 1px border. Image on top (clipped frame with object-cover), content below with generous padding (p-6 or p-8).",
+    "navigation": "Sticky glassmorphism header (bg-white/80 backdrop-blur-md border-b border-black/5). Left-aligned logo, right-aligned links and CTA.",
+    "inputs": "Shadcn UI inputs customized to have square corners (rounded-none), border-black/20, focus:border-[#E53935] focus:ring-0."
+  },
+  "grids": {
+    "bento_strategy": "Use asymmetric grids for the Services and Infrastructure sections. e.g., A 12-column grid where items span 4, 8, or 6 columns to create a dynamic masonry feel.",
+    "spacing": "Generous spacing. Use gap-6 to gap-12 between grid items. Section padding should be py-24 to py-32."
+  },
+  "layouts": {
+    "Home": {
+      "Hero": "Kinetic typography reveal. Large h1 text ('Executing Visions, Printing Reality'). Subtle 3D or parallax image block behind or alongside text.",
+      "Client Marquee": "Slow, smooth-scrolling logo strip (using react-fast-marquee). High contrast, greyscale logos.",
+      "Services Grid": "6 core offerings in an asymmetric bento grid. Each card features real product photography (spotlight treated).",
+      "Manifesto": "Numbered chapters (01. Precision, 02. Scale, etc.) set in large display font, alternating left/right alignment.",
+      "Infrastructure Teaser": "Side-by-side layout: Large typography on one side, masked/clipped image of a printing machine on the other.",
+      "Contact CTA": "Dark or red section block, bold header, leading to contact page."
+    },
+    "About": "Focus on the company's vendor history. Large typography, timeline of growth, team/infrastructure imagery.",
+    "Services": "Detailed list of services with larger spotlight images and specifications.",
+    "Portfolio": "Masonry gallery of case studies. Real retail project imagery. Hover reveals project name.",
+    "Infrastructure": "Technical specifications of machines (Latex, Solvent, UV). Minimalist layout with sharp technical aesthetic.",
+    "Contact": "Split layout. Left: Contact info (WhatsApp, Call, Address). Right: Quote enquiry form. WhatsApp/Call floating action buttons fixed to bottom right."
+  },
+  "motion": {
+    "scrolling": "Implement @studio-freight/lenis for smooth momentum scrolling across the entire site.",
+    "hero_reveal": "Masked line-by-line reveal using framer-motion. Wrap lines in overflow-hidden divs and animate y-axis from 100% to 0%.",
+    "scroll_reveals": "Use framer-motion whileInView to trigger subtle opacity and y-axis translations on scroll.",
+    "hover_states": "Images in bento grids scale up slightly (scale-105) on hover within an overflow-hidden container."
+  },
+  "accessibility": {
+    "contrast": "Ensure all text meets WCAG AA standards. Red background with white text is valid. Grey backgrounds with black text is valid.",
+    "focus": "All interactive elements must have a visible focus state. focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-600 focus-visible:ring-offset-2.",
+    "aria": "Include aria-labels for icon buttons and standard screen reader support."
+  },
+  "media": {
+    "image_treatment": "Images should feel premium. Use aspect-video or aspect-[4/5] ratios. Wrap images in overflow-hidden containers.",
+    "client_logos": "Filter logos to greyscale and apply hover color transition if possible, or keep purely greyscale for a sophisticated look."
+  },
+  "3d_libraries": {
+    "framer_motion": "Core animation library.",
+    "lenis": "Smooth scrolling wrapper.",
+    "react_fast_marquee": "For the client logo strip."
+  },
+  "image_urls": {
+    "hero": [
+      {
+        "url": "https://images.unsplash.com/photo-1693031630146-568e2f72db0e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwzfHxsYXJnZSUyMGZvcm1hdCUyMHByaW50aW5nJTIwbWFjaGluZSUyMGluZHVzdHJ5fGVufDB8fHx8MTc4NDU3NDI4M3ww&ixlib=rb-4.1.0&q=85",
+        "category": "Hero Background/Focus",
+        "description": "Large format printing machine cutting paper - dynamic hero."
+      }
+    ],
+    "services": [
+      {
+        "url": "https://images.unsplash.com/photo-1564419965579-5da68ffdf3af?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHw0fHxyZXRhaWwlMjBzdG9yZSUyMHN0b3JlZnJvbnQlMjBicmFuZGluZyUyMGZhY2FkZXxlbnwwfHx8fDE3ODQ1NzQyODN8MA&ixlib=rb-4.1.0&q=85",
+        "category": "Retail Store Branding",
+        "description": "Storefront branding facade"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1625157189036-b17181a0faea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHxuZW9uJTIwZ2xvdyUyMHNpZ24lMjBib2FyZCUyMGZhY3Rvcnl8ZW58MHx8fHwxNzg0NTc0MjgzfDA&ixlib=rb-4.1.0&q=85",
+        "category": "Glow Sign Boards",
+        "description": "Neon glow sign board"
+      },
+      {
+        "url": "https://images.pexels.com/photos/2371911/pexels-photo-2371911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "Hoardings",
+        "description": "Billboard hoarding structure"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1561710309-9a739908b336?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHxyZXRhaWwlMjBzdG9yZSUyMHN0b3JlZnJvbnQlMjBicmFuZGluZyUyMGZhY2FkZXxlbnwwfHx8fDE3ODQ1NzQyODN8MA&ixlib=rb-4.1.0&q=85",
+        "category": "Vinyl and frosted film",
+        "description": "Glass facade close up"
+      }
+    ],
+    "infrastructure": [
+      {
+        "url": "https://images.unsplash.com/photo-1676474506722-4bf98059b74a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHw0fHxsYXJnZSUyMGZvcm1hdCUyMHByaW50aW5nJTIwbWFjaGluZSUyMGluZHVzdHJ5fGVufDB8fHx8MTc4NDU3NDI4M3ww&ixlib=rb-4.1.0&q=85",
+        "category": "Machines",
+        "description": "UV/Solvent machine"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwxfHxsYXJnZSUyMGZvcm1hdCUyMHByaW50aW5nJTIwbWFjaGluZSUyMGluZHVzdHJ5fGVufDB8fHx8MTc4NDU3NDI4M3ww&ixlib=rb-4.1.0&q=85",
+        "category": "Printers",
+        "description": "Printing mechanism"
+      }
+    ],
+    "client_logos": [
+      {
+        "url": "https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwY2xvdGhpbmclMjByZXRhaWwlMjB0cmVuZHN8ZW58MHx8fHwxNzg0NTc0MzA2fDA&ixlib=rb-4.1.0&q=85",
+        "category": "Trends Logo Proxy",
+        "description": "Fashion retail proxy"
+      },
+      {
+        "url": "https://images.pexels.com/photos/18936418/pexels-photo-18936418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "Pantaloons Logo Proxy",
+        "description": "Bag logo proxy"
+      },
+      {
+        "url": "https://images.pexels.com/photos/37485315/pexels-photo-37485315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "Kalyan Jewellers Logo Proxy",
+        "description": "Jewellery logo proxy"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1609370638676-9ff99568c5db?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwxfHxzaG9wcGVycyUyMHN0b3AlMjBsb2dvfGVufDB8fHx8MTc4NDU3NDI5MHww&ixlib=rb-4.1.0&q=85",
+        "category": "Shoppers Stop Proxy",
+        "description": "Stop sign proxy"
+      },
+      {
+        "url": "https://images.pexels.com/photos/1235692/pexels-photo-1235692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "Peter England Proxy",
+        "description": "Denim logo proxy"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1639598003276-8a70fcaaad6c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwxfHx2aXAlMjBsdWdnYWdlJTIwdHJvbGxleSUyMGJhZ3xlbnwwfHx8fDE3ODQ1NzQzMDZ8MA&ixlib=rb-4.1.0&q=85",
+        "category": "VIP Proxy",
+        "description": "Luggage proxy"
+      },
+      {
+        "url": "https://images.pexels.com/photos/10939146/pexels-photo-10939146.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "Turtle Proxy",
+        "description": "Turtle neck fashion proxy"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Install required packages: yarn add framer-motion @studio-freight/lenis react-fast-marquee react-icons lucide-react",
+    "Use Cabinet Grotesk for headings and Inter for body text. Add them to index.html or layout wrapper.",
+    "Implement Lenis smooth scrolling globally in the App wrapper.",
+    "Build the hero with framer-motion line-by-line reveal using overflow-hidden wrappers around text lines.",
+    "Ensure the design remains industrial and sharp. Do not use soft border-radius (rounded-2xl is forbidden, use rounded-none).",
+    "Do not use generic centering. Emphasize grid alignments and negative space.",
+    "Client logos: Render the provided generic proxy images as small 120x60 grayscale object-contain images inside the Marquee.",
+    "Add sticky WhatsApp and Call floating action buttons using Lucide icons.",
+    "Create a SQLite DB based quote enquiry form via server actions or backend endpoints as part of the hybrid_fullstack setup.",
+    "Apply data-testid to all interactive elements."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters.",
+    "You MUST NOT apply universal transition. Eg: transition: all.",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style.",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Toasts: Use sonner."
+  ]
+}
