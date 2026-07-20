@@ -1,12 +1,20 @@
 import React, { useEffect } from "react";
 import "@/App.css";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useLocation,
+  Navigate,
+} from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 
 import { useLenis } from "@/lib/useLenis";
+import { AuthProvider } from "@/lib/AuthContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingActions from "@/components/FloatingActions";
+import ProtectedRoute from "@/components/ProtectedRoute";
 
 import Home from "@/pages/Home";
 import About from "@/pages/About";
@@ -15,6 +23,8 @@ import Portfolio from "@/pages/Portfolio";
 import Infrastructure from "@/pages/Infrastructure";
 import Contact from "@/pages/Contact";
 import Admin from "@/pages/Admin";
+import Login from "@/pages/Login";
+import AuthCallback from "@/pages/AuthCallback";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -91,13 +101,24 @@ function AnimatedRoutes() {
           }
         />
         <Route
-          path="/admin/enquiries"
+          path="/login"
           element={
             <PageTransition>
-              <Admin />
+              <Login />
             </PageTransition>
           }
         />
+        <Route
+          path="/admin/enquiries"
+          element={
+            <ProtectedRoute>
+              <PageTransition>
+                <Admin />
+              </PageTransition>
+            </ProtectedRoute>
+          }
+        />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </AnimatePresence>
   );
@@ -105,6 +126,16 @@ function AnimatedRoutes() {
 
 function Shell() {
   useLenis();
+  const location = useLocation();
+
+  // Detect OAuth callback synchronously during render (prevents race conditions).
+  // AuthCallback processes the session_id and redirects to /admin/enquiries.
+  if (typeof window !== "undefined" && window.location.hash?.includes("session_id=")) {
+    return <AuthCallback />;
+  }
+
+  const isAuthOnlyRoute = location.pathname === "/login";
+
   return (
     <>
       <ScrollToTop />
@@ -112,7 +143,7 @@ function Shell() {
       <main>
         <AnimatedRoutes />
       </main>
-      <Footer />
+      {!isAuthOnlyRoute && <Footer />}
       <FloatingActions />
     </>
   );
@@ -121,7 +152,9 @@ function Shell() {
 export default function App() {
   return (
     <BrowserRouter>
-      <Shell />
+      <AuthProvider>
+        <Shell />
+      </AuthProvider>
     </BrowserRouter>
   );
 }

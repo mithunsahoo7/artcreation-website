@@ -57,11 +57,11 @@ export default function Footer() {
               ))}
               <li>
                 <Link
-                  to="/admin/enquiries"
+                  to="/login"
                   data-testid="footer-link-admin"
                   className="text-white/50 hover:text-accent text-xs"
                 >
-                  Admin
+                  Studio sign in
                 </Link>
               </li>
             </ul>
