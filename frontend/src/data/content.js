@@ -75,13 +75,26 @@ export const SERVICES = [
 ];
 
 export const CLIENTS = [
-  "Trends",
-  "Pantaloons",
-  "Kalyan Jewellers",
-  "Shoppers Stop",
-  "Peter England",
-  "VIP",
-  "Turtle",
+  {
+    name: "P3",
+    logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/p0705198_o.png",
+  },
+  {
+    name: "Allen Solly",
+    logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/5vjutac3_al8516ad03-allen-solly-logo-allen-solly-logo-png-images-transparent-and-vector-file.png",
+  },
+  {
+    name: "Reliance Fashion World",
+    logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/zrdav9fy_FFW.png",
+  },
+  {
+    name: "Kalyan Jewellers",
+    logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/it2ww4fa_Kalyan%20Juwe.png",
+  },
+  {
+    name: "Maxmind",
+    logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/fgejf9uz_Maxmind.png",
+  },
 ];
 
 export const MANIFESTO = [

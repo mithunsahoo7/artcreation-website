@@ -32,12 +32,16 @@ export default function ClientMarquee() {
             <div
               key={i}
               data-testid={`client-item-${i}`}
-              className="flex items-center gap-8 px-10 py-4"
+              className="flex items-center gap-10 px-10 py-4"
             >
-              <span className="font-display font-black text-3xl md:text-5xl lg:text-6xl tracking-tighter text-black/70 hover:text-accent transition-colors">
-                {c}
-              </span>
-              <span className="w-2 h-2 bg-accent rotate-45" />
+              <img
+                src={c.logo}
+                alt={c.name}
+                title={c.name}
+                loading="lazy"
+                className="h-14 md:h-16 lg:h-20 w-auto max-w-[220px] object-contain grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+              />
+              <span className="w-2 h-2 bg-accent rotate-45 shrink-0" />
             </div>
           ))}
         </Marquee>
