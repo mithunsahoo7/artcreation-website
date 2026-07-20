@@ -35,11 +35,13 @@ export default function Navbar() {
             to="/"
             data-testid="nav-logo"
             className="flex items-center gap-2 group"
+            aria-label="Art Creation — Home"
           >
-            <span className="inline-block w-2.5 h-2.5 bg-accent" />
-            <span className="font-display text-lg md:text-xl font-black tracking-tight">
-              Art Creation<span className="text-accent">.</span>
-            </span>
+            <img
+              src="https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/s1adavcg_ART%20Creation%20Logo_PNG.webp"
+              alt="Art Creation"
+              className="h-9 md:h-11 w-auto object-contain"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-8">
