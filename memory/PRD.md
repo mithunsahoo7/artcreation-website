@@ -29,17 +29,18 @@ scroll reveals, Lenis smooth momentum scrolling.
 - data-testid on every interactive element
 
 ## What's been implemented (2026-07-20)
-- FastAPI backend: `POST /api/enquiries`, `GET /api/enquiries`, `GET /api/stats`, `GET /api/`
-- MongoDB collection `enquiries` (uuid id, ISO created_at)
+- FastAPI backend: `POST /api/enquiries`, `GET /api/enquiries` (auth-gated), `GET /api/stats`, `GET /api/`
+- **Emergent Google Auth**: `POST /api/auth/session`, `GET /api/auth/me`, `POST /api/auth/logout`. Cookie `session_token` (httpOnly, secure, samesite=None, 7 days). Users stored with custom `user_id` (UUID), no `_id` leakage.
+- MongoDB collections: `enquiries`, `users`, `user_sessions`
 - React frontend with framer-motion + Lenis smooth scrolling
 - Pages: Home (kinetic hero, client marquee, manifesto, services bento,
   editorial ticker, infra teaser, case studies, red CTA), About (timeline
   + pillars), Services (row list with alternating shades), Portfolio
   (masonry-ish grid + filters), Infrastructure (Latex/Solvent/UV blocks with
-  spec tables), Contact (split layout + form), Admin (enquiries table)
+  spec tables), Contact (split layout + form), **Login (Sign in with Google), Admin (protected, with user card + logout)**
 - Floating WhatsApp (green) + Call (red) buttons
 - Sticky glass navbar with kinetic mobile menu
-- 100% test pass on first testing agent iteration
+- **All auth tests pass (18/18)** on the second testing agent iteration
 
 ## Prioritized backlog
 - **P1**: Replace placeholder phone/WhatsApp/email/address in
