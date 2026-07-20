@@ -59,8 +59,8 @@ function Hero() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="overline mb-6 md:mb-10"
           >
-            <span className="text-accent">●</span> Signage &amp; print execution
-            partner · est. Kolkata
+            <span className="text-accent">●</span> End-to-End Printing &amp;
+            Signage Execution Partner
           </motion.p>
 
           <RevealLines
