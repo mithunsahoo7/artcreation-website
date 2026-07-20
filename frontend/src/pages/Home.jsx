@@ -287,12 +287,14 @@ function InfraTeaser() {
         <div className="col-span-12 md:col-span-6 order-2 md:order-1">
           <Reveal>
             <p className="overline">Owned Infrastructure</p>
-            <h2 className="font-display font-black tracking-tighter text-5xl md:text-7xl lg:text-8xl leading-[0.9] mt-6">
+            <h2 className="font-display font-black tracking-tighter text-5xl md:text-6xl lg:text-7xl leading-[0.9] mt-6">
               <span className="text-accent">Latex.</span>
               <br />
               Solvent.
               <br />
               UV.
+              <br />
+              Digital.
             </h2>
             <p className="mt-8 text-lg text-black/70 max-w-md leading-relaxed">
               Three print technologies, one production floor. From
