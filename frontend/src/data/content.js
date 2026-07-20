@@ -122,14 +122,14 @@ export const MANIFESTO = [
 
 export const PORTFOLIO = [
   {
-    slug: "kolkata-flagship-rollout",
-    brand: "Fashion Retail",
-    title: "Kolkata Flagship — Full Façade Rollout",
-    year: "2024",
-    location: "Park Street, Kolkata",
-    scope: ["ACP Fascia", "Glow Sign", "Vinyl Graphics"],
+    slug: "pantaloons-puja-window",
+    brand: "Pantaloons",
+    title: "Pantaloons Puja — Illuminated Window Display",
+    year: "2025",
+    location: "Kolkata",
+    scope: ["Window Display", "LED Backlit", "Vinyl"],
     image:
-      "https://images.unsplash.com/photo-1564419965579-5da68ffdf3af?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHw0fHxyZXRhaWwlMjBzdG9yZSUyMHN0b3JlZnJvbnQlMjBicmFuZGluZyUyMGZhY2FkZXxlbnwwfHx8fDE3ODQ1NzQyODN8MA&ixlib=rb-4.1.0&q=85",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/un5m6d5j_WhatsApp%20Image%202026-07-18%20at%2019.41.41.jpeg",
   },
   {
     slug: "jewellery-showroom",
