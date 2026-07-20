@@ -87,9 +87,9 @@ function Hero() {
               initial={{ opacity: 0, scale: 1.08 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1.2, ease: [0.2, 0.8, 0.2, 1] }}
-              src="https://images.unsplash.com/photo-1564419965579-5da68ffdf3af?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHw0fHxyZXRhaWwlMjBzdG9yZSUyMHN0b3JlZnJvbnQlMjBicmFuZGluZyUyMGZhY2FkZXxlbnwwfHx8fDE3ODQ1NzQyODN8MA&ixlib=rb-4.1.0&q=85"
-              alt="Retail storefront branding"
-              className="grayscale-[0.15]"
+              src="https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/uxka5u1o_WhatsApp%20Image%202026-06-05%20at%2020.13.54.jpeg"
+              alt="Fashion World storefront — Art Creation execution"
+              className="grayscale-[0.05]"
             />
             <div className="absolute left-4 top-4 bg-white/95 px-2 py-1 font-mono-tag text-[10px] tracking-widest">
               CASE · 034 / KOLKATA
