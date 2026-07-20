@@ -4,7 +4,7 @@ export const CONTACT = {
   whatsapp: "+91-9477360683",
   whatsappHref: "https://wa.me/919477360683",
   email: "info@artcreation.in",
-  address: "Kolkata, West Bengal, India",
+  address: "17/10/1, K.B. Sarani, Mall Road, Kolkata - 700080",
   placeholder: false,
 };
 
