@@ -33,7 +33,7 @@ export default function Infrastructure() {
         </div>
       </section>
 
-      <EditorialTicker items={["Latex", "Solvent", "UV Flatbed", "ACP Fabrication", "Vinyl Cutting", "Structural Steel"]} />
+      <EditorialTicker items={["Latex", "Solvent", "UV Flatbed", "Digital Press", "ACP Fabrication", "Vinyl Cutting"]} />
 
       <section className="bg-white">
         {INFRA.map((m, i) => (

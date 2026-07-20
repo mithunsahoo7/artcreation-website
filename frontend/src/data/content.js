@@ -223,6 +223,19 @@ export const INFRA = [
     image:
       "https://images.unsplash.com/photo-1676474506722-4bf98059b74a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHw0fHxsYXJnZSUyMGZvcm1hdCUyMHByaW50aW5nJTIwbWFjaGluZSUyMGluZHVzdHJ5fGVufDB8fHx8MTc4NDU3NDI4M3ww&ixlib=rb-4.1.0&q=85",
   },
+  {
+    tag: "DIGITAL",
+    title: "Fujifilm Apeos C7570 Digital Press",
+    spec: [
+      { k: "Format", v: "SRA3 · up to 330 × 660 mm" },
+      { k: "Ink", v: "Toner CMYK" },
+      { k: "Substrate", v: "Paper, card, synthetic, adhesive stock" },
+      { k: "Use", v: "Short-run POS, catalogues, brochures, mock-ups" },
+    ],
+    body: "Sharp, on-demand digital printing for short-run collateral, in-store POS pieces and rapid brand mock-ups — same-day turnaround.",
+    image:
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/f11n5tpk_Digital.png",
+  },
 ];
 
 export const STATS = [
