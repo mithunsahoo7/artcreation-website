@@ -59,20 +59,23 @@ function Hero() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="overline mb-6 md:mb-10"
           >
-            <span className="text-accent">●</span> Complete Printing, Signage
-            &amp; Fabrication Solutions
+            <span className="text-accent">●</span> Kolkata · Retail signage &amp;
+            print execution partner
           </motion.p>
 
           <RevealLines
             as="h1"
             dataTestId="hero-headline"
-            className="font-display font-black leading-[0.88] tracking-tighter text-[15vw] md:text-[10.5vw] lg:text-[9vw]"
+            className="font-display font-black leading-[0.9] tracking-tighter text-[13vw] md:text-[8vw] lg:text-[7vw]"
             lines={[
-              "We build",
+              "Complete",
+              "printing,",
+              "signage &",
               <>
-                the <span className="text-accent italic font-medium">store-</span>
+                <span className="text-accent italic font-medium">
+                  fabrication.
+                </span>
               </>,
-              "front.",
             ]}
           />
         </div>
