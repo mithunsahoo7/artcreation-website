@@ -320,12 +320,14 @@ function InfraTeaser() {
           <div className="col-span-2 row-span-3 img-frame">
             <img src={INFRA[2].image} alt="UV printer" />
           </div>
-          <div className="col-span-4 row-span-2 bg-black text-white p-6 flex flex-col justify-between">
-            <span className="overline text-white/60">Print capacity</span>
-            <span className="font-display font-black text-4xl md:text-5xl tracking-tight leading-[0.95]">
-              12,000 <br />
-              <span className="text-accent">sq.ft / day</span>
-            </span>
+          <div className="col-span-4 row-span-2 img-frame">
+            <img
+              src="https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/g3zlux1h_Digital.png"
+              alt="Digital press — Fujifilm Apeos C7570"
+            />
+            <div className="absolute left-3 bottom-3 bg-white/95 px-2 py-1 font-mono-tag text-[10px] tracking-widest">
+              DIGITAL PRESS
+            </div>
           </div>
         </div>
       </div>
