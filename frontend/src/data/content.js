@@ -221,7 +221,7 @@ export const INFRA = [
     ],
     body: "Direct-to-substrate UV printing with white ink layer — from acrylic backlit panels to full-color ACP fascia sections.",
     image:
-      "https://images.unsplash.com/photo-1676474506722-4bf98059b74a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHw0fHxsYXJnZSUyMGZvcm1hdCUyMHByaW50aW5nJTIwbWFjaGluZSUyMGluZHVzdHJ5fGVufDB8fHx8MTc4NDU3NDI4M3ww&ixlib=rb-4.1.0&q=85",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/w53vf2zc_UV.png",
   },
   {
     tag: "DIGITAL",
