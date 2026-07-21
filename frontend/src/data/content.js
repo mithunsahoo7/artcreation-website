@@ -164,14 +164,14 @@ export const PORTFOLIO = [
       "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/uxka5u1o_WhatsApp%20Image%202026-06-05%20at%2020.13.54.jpeg",
   },
   {
-    slug: "luggage-vm",
-    brand: "Luggage",
-    title: "In-store VM Refresh — 12 Outlets",
-    year: "2023",
-    location: "West Bengal",
-    scope: ["Vinyl", "Fabric", "Acrylic"],
+    slug: "amar-jyoti-chemist",
+    brand: "Amar Jyoti Chemists",
+    title: "Amar Jyoti — Family-run Chemist Shopfront",
+    year: "2025",
+    location: "N.S.C. Bose Rd, Kolkata",
+    scope: ["LED Signage", "Acrylic Letters", "Fascia"],
     image:
-      "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwxfHxsYXJnZSUyMGZvcm1hdCUyMHByaW50aW5nJTIwbWFjaGluZSUyMGluZHVzdHJ5fGVufDB8fHx8MTc4NDU3NDI4M3ww&ixlib=rb-4.1.0&q=85",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/ld9i0z09_WhatsApp%20Image%202026-07-18%20at%2019.30.14.jpeg",
   },
   {
     slug: "seasonal-vinyl",
