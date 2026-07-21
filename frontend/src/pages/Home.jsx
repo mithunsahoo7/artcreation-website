@@ -90,12 +90,12 @@ function Hero() {
               initial={{ opacity: 0, scale: 1.08 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1.2, ease: [0.2, 0.8, 0.2, 1] }}
-              src="https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/3dt4g8tq_WhatsApp%20Image%202026-07-18%20at%2019.41.44.jpeg"
-              alt="P.C. Chandra Jewellers façade — Art Creation execution in progress"
+              src="https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/uxka5u1o_WhatsApp%20Image%202026-06-05%20at%2020.13.54.jpeg"
+              alt="Reliance Fashion World storefront — Art Creation execution"
               className="!object-contain w-full h-full"
             />
             <div className="absolute left-4 top-4 bg-white/95 px-2 py-1 font-mono-tag text-[10px] tracking-widest">
-              CASE · P.C. CHANDRA / KOLKATA
+              CASE · FASHION WORLD
             </div>
           </motion.div>
 
