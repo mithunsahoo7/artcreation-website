@@ -25,7 +25,7 @@ export const SERVICES = [
     tagline: "End-to-end storefront execution",
     body: "Turnkey rollout for retail chains — from survey, design adaptation and production, to installation across every location on schedule.",
     image:
-      "https://images.unsplash.com/photo-1564419965579-5da68ffdf3af?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHw0fHxyZXRhaWwlMjBzdG9yZSUyMHN0b3JlZnJvbnQlMjBicmFuZGluZyUyMGZhY2FkZXxlbnwwfHx8fDE3ODQ1NzQyODN8MA&ixlib=rb-4.1.0&q=85",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/uxka5u1o_WhatsApp%20Image%202026-06-05%20at%2020.13.54.jpeg",
   },
   {
     id: "glow-sign",
