@@ -152,14 +152,14 @@ export const PORTFOLIO = [
       "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/zecutd7b_WhatsApp%20Image%202026-07-18%20at%2019.29.53.jpeg",
   },
   {
-    slug: "hoarding-campaign",
-    brand: "OOH Media",
-    title: "City-wide Hoarding Campaign",
-    year: "2024",
-    location: "Kolkata & Howrah",
-    scope: ["Flex Print", "Structural", "Install"],
+    slug: "fashion-world-storefront",
+    brand: "Reliance Fashion World",
+    title: "Fashion World — Full Storefront Illumination",
+    year: "2025",
+    location: "Odisha",
+    scope: ["LED Facade", "Flex Print", "Signage"],
     image:
-      "https://images.pexels.com/photos/2371911/pexels-photo-2371911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/uxka5u1o_WhatsApp%20Image%202026-06-05%20at%2020.13.54.jpeg",
   },
   {
     slug: "luggage-vm",
