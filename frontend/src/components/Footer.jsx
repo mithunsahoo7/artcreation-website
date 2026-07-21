@@ -83,6 +83,10 @@ export default function Footer() {
               <a href={CONTACT.phoneHref} className="link-underline">
                 {CONTACT.phone}
               </a>
+              <br />
+              <a href={CONTACT.phoneAltHref} className="link-underline">
+                {CONTACT.phoneAlt}
+              </a>
             </address>
             {CONTACT.placeholder && (
               <p className="mt-4 text-[11px] text-white/40">

@@ -96,9 +96,16 @@ export default function Contact() {
                       <a
                         href={CONTACT.phoneHref}
                         data-testid="contact-phone"
-                        className="text-black/70 text-sm mt-1 link-underline"
+                        className="block text-black/70 text-sm mt-1 link-underline"
                       >
                         {CONTACT.phone}
+                      </a>
+                      <a
+                        href={CONTACT.phoneAltHref}
+                        data-testid="contact-phone-alt"
+                        className="block text-black/70 text-sm mt-1 link-underline"
+                      >
+                        {CONTACT.phoneAlt}
                       </a>
                     </div>
                   </li>

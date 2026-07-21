@@ -1,6 +1,8 @@
 export const CONTACT = {
   phone: "+91-9477360683",
   phoneHref: "tel:+919477360683",
+  phoneAlt: "+91-6291000059",
+  phoneAltHref: "tel:+916291000059",
   whatsapp: "+91-9477360683",
   whatsappHref: "https://wa.me/919477360683",
   email: "artcreation.flex24@gmail.com",
