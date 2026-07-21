@@ -183,6 +183,56 @@ export const PORTFOLIO = [
     image:
       "https://images.unsplash.com/photo-1676474506722-4bf98059b74a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHw0fHxsYXJnZSUyMGZvcm1hdCUyMHByaW50aW5nJTIwbWFjaGluZSUyMGluZHVzdHJ5fGVufDB8fHx8MTc4NDU3NDI4M3ww&ixlib=rb-4.1.0&q=85",
   },
+  {
+    slug: "cakes-n-buns",
+    brand: "Cakes N Buns",
+    title: "Cakes N Buns — Acrylic Fascia & LED Letters",
+    year: "2025",
+    location: "Kolkata",
+    scope: ["Acrylic Letters", "Fascia", "Install"],
+    image:
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/ndigvfhw_WhatsApp%20Image%202026-07-18%20at%2019.41.45.jpeg",
+  },
+  {
+    slug: "p3-rama-stores",
+    brand: "P3 / Rama Stores",
+    title: "P3 — 3D Acrylic Storefront Signage",
+    year: "2025",
+    location: "114/1, Bidhan Sarani, Kolkata",
+    scope: ["3D Acrylic", "LED Backlit", "Flex Print"],
+    image:
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/s6qux15i_WhatsApp%20Image%202026-07-18%20at%2019.30.06.jpeg",
+  },
+  {
+    slug: "digiouting-lightbox",
+    brand: "DigiOuting LLP",
+    title: "DigiOuting — Circular Illuminated Lightbox",
+    year: "2025",
+    location: "Uttarpara, WB",
+    scope: ["Lightbox", "Acrylic", "LED"],
+    image:
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/61xzvpu5_WhatsApp%20Image%202026-06-05%20at%2020.13.43.jpeg",
+  },
+  {
+    slug: "pc-chandra-jewellers",
+    brand: "P.C. Chandra Jewellers",
+    title: "P.C. Chandra — LED Signage Install",
+    year: "2025",
+    location: "Kolkata",
+    scope: ["LED Letters", "Fascia", "Install"],
+    image:
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/1xezbtud_WhatsApp%20Image%202026-07-18%20at%2019.41.44.jpeg",
+  },
+  {
+    slug: "wonder-acp-facade",
+    brand: "Wonder ACP",
+    title: "Wonder ACP — Multi-storey Facade Cladding",
+    year: "2025",
+    location: "Kolkata",
+    scope: ["ACP Cladding", "Structural", "Install"],
+    image:
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/2blur9f4_WhatsApp%20Image%202026-07-18%20at%2019.30.12.jpeg",
+  },
 ];
 
 export const INFRA = [
