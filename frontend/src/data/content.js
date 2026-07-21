@@ -132,14 +132,14 @@ export const PORTFOLIO = [
       "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/un5m6d5j_WhatsApp%20Image%202026-07-18%20at%2019.41.41.jpeg",
   },
   {
-    slug: "jewellery-showroom",
-    brand: "Jewellery",
-    title: "Jewellery Showroom — Backlit Fabric System",
-    year: "2024",
-    location: "Salt Lake, Kolkata",
-    scope: ["SEG Frames", "Fabric Print", "LED Modules"],
+    slug: "chola-gold-loan-standee",
+    brand: "Chola Gold Loan",
+    title: "Chola Gold Loan — In-branch Illuminated Standee",
+    year: "2025",
+    location: "Kolkata",
+    scope: ["Standee", "LED Backlit", "Floral Decor"],
     image:
-      "https://images.unsplash.com/photo-1625157189036-b17181a0faea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHxuZW9uJTIwZ2xvdyUyMHNpZ24lMjBib2FyZCUyMGZhY3Rvcnl8ZW58MHx8fHwxNzg0NTc0MjgzfDA&ixlib=rb-4.1.0&q=85",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/w5qigjyw_WhatsApp%20Image%202026-07-18%20at%2019.29.48.jpeg",
   },
   {
     slug: "menswear-30-cities",
