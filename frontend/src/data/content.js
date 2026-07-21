@@ -43,7 +43,7 @@ export const SERVICES = [
     tagline: "Solvent large-format print",
     body: "High-density flex, star flex, and vinyl printing up to 10ft, with color-matched output for campaigns that stay true across every wall and billboard.",
     image:
-      "https://images.pexels.com/photos/2371911/pexels-photo-2371911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/stgt1mzu_solvent%20%282%29.webp",
   },
   {
     id: "vinyl-frosted",
