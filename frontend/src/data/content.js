@@ -34,7 +34,7 @@ export const SERVICES = [
     tagline: "ACP, acrylic & LED fabrication",
     body: "Custom acrylic embossed letters, ACP fascia and LED-backlit signage engineered for weather, wind load and 24×7 uptime.",
     image:
-      "https://images.unsplash.com/photo-1625157189036-b17181a0faea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHxuZW9uJTIwZ2xvdyUyMHNpZ24lMjBib2FyZCUyMGZhY3Rvcnl8ZW58MHx8fHwxNzg0NTc0MjgzfDA&ixlib=rb-4.1.0&q=85",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/h4ou70v6_WhatsApp%20Image%202026-07-18%20at%2019.30.07.jpeg",
   },
   {
     id: "flex",
