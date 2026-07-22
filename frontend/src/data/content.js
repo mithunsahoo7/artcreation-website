@@ -54,7 +54,7 @@ export const SERVICES = [
     tagline: "Glass, walls, vehicle wraps",
     body: "Precision-cut vinyl graphics, one-way vision, frosted branding films and full vehicle wraps — installed by trained applicators.",
     image:
-      "https://images.unsplash.com/photo-1561710309-9a739908b336?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHxyZXRhaWwlMjBzdG9yZSUyMHN0b3JlZnJvbnQlMjBicmFuZGluZyUyMGZhY2FkZXxlbnwwfHx8fDE3ODQ1NzQyODN8MA&ixlib=rb-4.1.0&q=85",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/8lhcwc5a_Frosted%20_Png.webp",
   },
   {
     id: "backlit",
