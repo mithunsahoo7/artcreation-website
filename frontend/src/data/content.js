@@ -63,7 +63,7 @@ export const SERVICES = [
     tagline: "SEG frames & fabric lightboxes",
     body: "Silicone-edge graphics, dye-sub fabric prints and modular fabric lightboxes for premium in-store visual merchandising.",
     image:
-      "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwxfHxsYXJnZSUyMGZvcm1hdCUyMHByaW50aW5nJTIwbWFjaGluZSUyMGluZHVzdHJ5fGVufDB8fHx8MTc4NDU3NDI4M3ww&ixlib=rb-4.1.0&q=85",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/k0qo54na_Backlit%20Frbric.png",
   },
   {
     id: "hoardings",
