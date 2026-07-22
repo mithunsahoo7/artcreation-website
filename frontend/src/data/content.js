@@ -133,7 +133,7 @@ export const MANIFESTO = [
   {
     n: "03",
     title: "Owned infrastructure",
-    body: "Latex, Solvent and UV machines under one roof means we control quality, cost and turnaround — no outsourcing surprises.",
+    body: "Latex, Solvent, Digital, Plotter and UV machines under one roof means we control quality, cost and turnaround — no outsourcing surprises.",
   },
   {
     n: "04",
