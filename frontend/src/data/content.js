@@ -97,6 +97,22 @@ export const CLIENTS = [
     name: "Maxmind",
     logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/fgejf9uz_Maxmind.png",
   },
+  {
+    name: "Baazar Kolkata",
+    logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/5gm7lnmg_Bazar%20Kolkata.png",
+  },
+  {
+    name: "John Players",
+    logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/b3ppwfdj_JP.webp",
+  },
+  {
+    name: "Pantaloons",
+    logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/cjfh6syg_pantaloons-logo-png_seeklogo-445442.png",
+  },
+  {
+    name: "Shoppers Stop",
+    logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/x8fqtfmu_Shopper%20Stop.png",
+  },
 ];
 
 export const MANIFESTO = [
