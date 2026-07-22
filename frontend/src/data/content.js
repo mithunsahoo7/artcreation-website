@@ -113,6 +113,10 @@ export const CLIENTS = [
     name: "Shoppers Stop",
     logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/x8fqtfmu_Shopper%20Stop.png",
   },
+  {
+    name: "Style Baazar",
+    logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/4an8li91_style-baazar-logo-png_seeklogo-610547.png",
+  },
 ];
 
 export const MANIFESTO = [
