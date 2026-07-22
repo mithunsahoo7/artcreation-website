@@ -72,7 +72,7 @@ export const SERVICES = [
     tagline: "Outdoor & OOH campaigns",
     body: "Structural hoardings, unipoles and bus shelter media — from site survey and fabrication to city-wide install and dismantle.",
     image:
-      "https://images.unsplash.com/photo-1693031630146-568e2f72db0e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwzfHxsYXJnZSUyMGZvcm1hdCUyMHByaW50aW5nJTIwbWFjaGluZSUyMGluZHVzdHJ5fGVufDB8fHx8MTc4NDU3NDI4M3ww&ixlib=rb-4.1.0&q=85",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_retail-branding-hub/artifacts/2zkcvcug_Hording.png",
   },
 ];
 
